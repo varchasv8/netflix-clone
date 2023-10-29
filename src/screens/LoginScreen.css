@@ -1,0 +1,220 @@
+.LoginScreen{
+    position:relative;
+    height: 100%;
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+    /* align-items: center; */
+}
+
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.loginScreen__body {
+	z-index: 1;
+    position: absolute;
+	width: 100;
+	height: auto;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+	background: rgb(0, 0, 0, 0.65);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: left;
+	padding: 60px 65px;
+    font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #999;
+}
+
+.GetStarted__body {
+    z-index: 1;
+    color: #fff;
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.GetStarted__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.GetStarted__body > h2 {
+    font-size: 2rem;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+
+.GetStarted__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.LoginScreen__input{
+    margin: 20px;
+}
+
+.SignupScreen__help{
+    color: gray;
+}
+
+.SignupScreen__link:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.LoginScreen__input > form > input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40%;
+    max-width: 600px;
+    background: #fff;
+}
+
+.GetStarted__button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    background-color: #e50914;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #fff;
+}
+
+.formm h1 {
+	margin-bottom: 20px;
+}
+
+.formm {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.formm .info {
+	padding: 5px 0;
+    color: #fff;
+	/* margin-bottom: 20px; */
+}
+
+.formm .info .email {
+	margin-bottom: 30px;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: inherit;
+}
+
+.formm .btn {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.btn-primary {
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	background: red;
+	color: #fff;
+	font-size: inherit;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.help {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8rem;
+}
+
+.help a {
+	color: #999;
+}
+
+.help a:hover {
+	text-decoration: underline;
+}
+
+input[type=checkbox] {
+	background: #737373;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 0;
+	height: 16px;
+	left: -20px;
+	width: 16px;
+	margin-right: 5px;
+}
+
+input[type=email] {
+	background: #343434;
+    color: #fff;
+}
+
+input[type=password] {
+	background: #343434;
+    color: #fff;
+}
+
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 200vh;
+    background: rgba(0,0,0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+.loginScreen__btn {
+    position: fixed;
+    right: 10px;
+    padding: 10px 20px;
+    top: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background: rgba(229, 9, 20, 0.829);
+    cursor: pointer;
+    letter-spacing: .0625rem;
+    font-weight: 600;
+    box-shadow: inset 0 0 20px rgba(255, 166, 170, 0);
+    transition: all 450ms cubic-bezier(0.19, 1, 0.22, 1);
+    /* transition: all 250ms; */
+}
+
+.loginScreen__btn:hover{
+    background-color: #fff;
+    color: rgba(228, 7, 18, 0.863);
+}
